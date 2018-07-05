@@ -24,8 +24,8 @@ $('.show-table').click(function () {
 
 //Apertura filtro
 $('.btn-filter-desk').click(function () {
-    $(".box-filtro_campos").toggleClass("hide", 1000);
-    $(this).toggleClass("active", 1000);
+    $(".box-filtro_campos").toggleClass("hide");
+    $(this).toggleClass("activeFilter");
 });
 
 //Funcionalidad calendario filtro

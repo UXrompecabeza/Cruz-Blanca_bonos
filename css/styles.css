@@ -39,7 +39,7 @@ table {
   border-spacing: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .main-container {
     width: 100% !important;
     padding: 0 14px !important;
@@ -250,6 +250,7 @@ table {
     margin-bottom: .5em !important;
     display: inline-block !important;
     padding-left: 1em !important;
+    width: 85%;
   }
   .reembolso-form .flujo-lg .alert_date, .reembolso-form .flujo-md .alert_date {
     display: inline-block;
@@ -289,17 +290,25 @@ table {
     position: relative;
   }
   .reembolso-form .reembolso-main .reembolso-info .short-name .form-title {
-    margin-left: -6%;
-    margin-right: 4%;
-    width: 90%;
+    width: 86%;
+    padding: 0 0 0.5em 0 !important;
   }
   .reembolso-form .reembolso-main .reembolso-info .short-name .asterisc {
     position: absolute;
     left: 0;
   }
+  .reembolso-form #btnFormBox {
+    height: 2em;
+    width: 90%;
+    left: 5%;
+  }
   .reembolso-form .specialty {
     width: 100% !important;
     text-align: left !important;
+  }
+  .reembolso-form .specialty .specialty-input_desk {
+    width: 100% !important;
+    margin: 0 !important;
   }
   .reembolso-form .specialty select {
     width: 100% !important;
@@ -347,9 +356,6 @@ table {
     font-weight: 400 !important;
     padding-top: .3em;
   }
-  .reembolso-form .date-form label {
-    width: 85%;
-  }
   .reembolso-form .date-form input {
     width: 60% !important;
     cursor: text !important;
@@ -358,7 +364,11 @@ table {
     color: #4a4a4a;
     width: 100% !important;
   }
-  .reembolso-form #doctor {
+  .reembolso-form .doctor-form-box {
+    width: 100% !important;
+    margin: .5em 0 0 !important;
+  }
+  .reembolso-form .doctor-form-box #doctor {
     margin-left: 0 !important;
   }
   .reembolso-form .asterisc {
@@ -440,7 +450,11 @@ table {
     font-size: 15px;
   }
   #modalSucursal .actionBtn {
-    left: 12% !important;
+    left: 10% !important;
+    width: 80%;
+  }
+  #modalSucursal .actionBtn button {
+    width: 100% !important;
   }
   .reembolso-exito-main {
     padding: .5em 0 0 !important;
@@ -640,9 +654,12 @@ table {
     padding: 0 0 .5em 0 !important;
     margin-top: -.5em;
   }
+  .narrow-md-sm {
+    padding: 0 28px !important;
+  }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1099px) {
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
   .main-container {
     width: 769px !important;
   }
@@ -666,6 +683,9 @@ table {
   }
   .center-lg {
     text-align: center !important;
+  }
+  .no-padd-left {
+    padding-left: 0 !important;
   }
   .box-filtro_campos {
     margin-top: .5em;
@@ -696,7 +716,7 @@ table {
     margin-bottom: 2em !important;
   }
   .resumen-box .change-request {
-    padding: 0 0 1.5em 0 !important;
+    padding: 0 0 1.5em 2em !important;
   }
   .resumen-box .change-request a {
     font-size: 12px !important;
@@ -704,12 +724,15 @@ table {
   .resumen-box .box-informe {
     padding: 1em 1em 0 1em;
   }
+  .resumen-box .metodo-pago-main {
+    margin: 0 1em 3em !important;
+  }
   .btn-area {
     width: 100% !important;
   }
   .consulta-medica .btnLink .button-large {
     text-align: center;
-    min-height: 19em !important;
+    min-height: 20em !important;
     line-height: 19px;
   }
   .consulta-medica .btnLink .button-large-subtitle {
@@ -720,6 +743,9 @@ table {
   .porMedico .button-large {
     min-height: 11.8em;
     padding: 2em !important;
+  }
+  .menu-buttons-large .button-large {
+    height: 18.5em;
   }
 }
 
@@ -751,6 +777,47 @@ table {
   .menu-buttons-icons .menu-button {
     padding: 0 10em;
   }
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../../assets/fonts/montserrat-semibold-webfont.ttf");
+  src: url("../../assets/fonts/montserrat-bold-webfont.eot");
+  src: url("../../assets/fonts/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../../assets/fonts/montserrat-bold-webfont.woff") format("woff"), url("../../assets/fonts/montserrat-bold-webfont.ttf") format("truetype"), url("../../assets/fonts/montserrat-bold-webfont.svg#montserratbold") format("svg");
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../../assets/fonts/montserrat-semibold-webfont.eot");
+  src: url("../../assets/fonts/montserrat-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/montserrat-semibold-webfont.woff2") format("woff2"), url("../../assets/fonts/montserrat-semibold-webfont.woff") format("woff"), url("../../assets/fonts/montserrat-semibold-webfont.ttf") format("truetype"), url("../../assets/fonts/montserrat-semibold-webfont.svg#montserratsemibold") format("svg");
+  font-weight: 600;
+  font-style: semi-bold;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../../assets/fonts/montserrat-medium-webfont.eot");
+  src: url("../../assets/fonts/montserrat-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/montserrat-medium-webfont.woff2") format("woff2"), url("../../assets/fonts/montserrat-medium-webfont.woff") format("woff"), url("../../assets/fonts/montserrat-semibold-webfont.ttf") format("truetype"), url("../../assets/fonts/montserrat-medium-webfont.svg#montserratmedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../../assets/fonts/montserrat-regular-webfont.eot");
+  src: url("../../assets/fonts/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../../assets/fonts/montserrat-regular-webfont.woff") format("woff"), url("../../assets/fonts/montserrat-regular-webfont.ttf") format("truetype"), url("../../assets/fonts/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  font-weight: 400;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../../assets/fonts/montserrat-light-webfont.eot");
+  src: url("../../assets/fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/montserrat-light-webfont.woff2") format("woff2"), url("../../assets/fonts/montserrat-light-webfont.woff") format("woff"), url("../../assets/fonts/montserrat-light-webfont.ttf") format("truetype"), url("../../assets/fonts/montserrat-light-webfont.svg#montserratlight") format("svg");
+  font-weight: 300;
+  font-style: light;
 }
 
 header {
@@ -1613,7 +1680,7 @@ button:disabled:hover {
   vertical-align: bottom;
 }
 
-.filtros .active {
+.filtros .activeFilter {
   background-color: transparent !important;
   border: 1px solid #1697F3 !important;
 }
@@ -1723,19 +1790,19 @@ button:disabled:hover {
   width: 240px !important;
 }
 
-#filtros-modal .modal-header, #calendar-modal .modal-header, #filtros-modal-2 .modal-header, #filtros-modal-3 .modal-header {
+#filtros-modal .modal-header, #calendar-modal .modal-header, #filtros-modal-2 .modal-header, #filtros-modal-3 .modal-header, #filtros-modal2 .modal-header {
   padding: 1em 1em .5em 1em;
   display: block;
 }
 
-#filtros-modal .modal-header .modal-title_small, #calendar-modal .modal-header .modal-title_small, #filtros-modal-2 .modal-header .modal-title_small, #filtros-modal-3 .modal-header .modal-title_small {
+#filtros-modal .modal-header .modal-title_small, #calendar-modal .modal-header .modal-title_small, #filtros-modal-2 .modal-header .modal-title_small, #filtros-modal-3 .modal-header .modal-title_small, #filtros-modal2 .modal-header .modal-title_small {
   font-size: 16px;
   text-align: center;
   display: block;
   padding-top: 1.5em;
 }
 
-#filtros-modal .modal-header button, #calendar-modal .modal-header button, #filtros-modal-2 .modal-header button, #filtros-modal-3 .modal-header button {
+#filtros-modal .modal-header button, #calendar-modal .modal-header button, #filtros-modal-2 .modal-header button, #filtros-modal-3 .modal-header button, #filtros-modal2 .modal-header button {
   position: absolute;
   right: .4em;
   margin: 0;
@@ -1760,12 +1827,6 @@ a.btnLink .button-large {
   padding: 1em 2em .7em;
   width: 100%;
   display: inline-block;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1099px) {
-  a.btnLink .button-large {
-    min-height: 14em;
-  }
 }
 
 a.btnLink .button-large img {
@@ -1952,6 +2013,7 @@ a.btnLink:hover {
 .carousel-users .carousel {
   margin: 0 auto;
   width: 22em;
+  text-align: center;
 }
 
 .carousel-users .carousel .icon, .carousel-users .carousel .icon-left, .carousel-users .carousel .icon-right, .carousel-users .carousel-container .carousel-year .carousel .icon-left, .carousel-container .carousel-year .carousel-users .carousel .icon-left, .carousel-users .carousel-container .carousel-year .carousel .icon-right, .carousel-container .carousel-year .carousel-users .carousel .icon-right {
@@ -2072,7 +2134,7 @@ a.btnLink:hover {
 .carousel-container .carousel-year .owl-nav .owl-prev {
   float: left;
   position: relative;
-  top: -1.6em;
+  top: -1.37em;
   background-image: url("../assets/icons/icon_chevron-left.svg") !important;
   background-position: center !important;
   background-size: cover !important;
@@ -2094,7 +2156,7 @@ a.btnLink:hover {
   background-image: url("../assets/icons/icon_chevron-right.svg") !important;
   background-position: center !important;
   background-size: cover !important;
-  top: -1.6em;
+  top: -1.37em;
   width: .5em;
   height: 1em;
 }
@@ -2403,10 +2465,12 @@ a.btnLink:hover {
 
 .attach-files .document-charged .documentItem .box_grey .text-document {
   text-align: left;
+  display: inline-block;
 }
 
 .attach-files .document-charged .documentItem .box_grey .delete-document {
   text-align: right;
+  display: inline-block;
 }
 
 .attach-files .document-charged .documentItem:first-child {
@@ -3307,11 +3371,16 @@ header .header-mo .box-notification img {
   border-bottom: 1px solid #eeeeee;
   border-top: 1px solid #eeeeee;
   margin-top: .3em;
+  height: 3em;
 }
 
 .list-item .header-box .right-filter {
   text-align: right;
   padding-right: 1em;
+}
+
+.list-item .header-box .right-filter a {
+  cursor: pointer;
 }
 
 .list-item .header-box .item-date {
@@ -5221,6 +5290,9 @@ header .header-mo .box-notification img {
   padding: 0;
   list-style: none;
   background-color: #fff;
+  border-left: 1px solid #9b9b9b;
+  border-right: 1px solid #9b9b9b;
+  border-bottom: 1px solid #9b9b9b;
 }
 
 .select-options li {
