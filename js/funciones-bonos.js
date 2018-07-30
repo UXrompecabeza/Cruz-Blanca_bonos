@@ -153,7 +153,7 @@ function flujoCentro() {
     var h = $("#centroId");
     var i = $("#centroNombre");
     var j = $("#centroRegion");
-    var k = $("#centroCiudad");
+    var k = $("#centroEsp");
     var l = $(".doctores-area").find("input");
 
     // Step 0
@@ -380,6 +380,9 @@ function flujoReservaHora() {
 $('#centroRegion').selectize({
     maxItems: 3
 });
+$('#espeId').selectize({});
+$('#centroId').selectize({});
+$('#centroEsp').selectize({});
 $('#espeRegion').selectize({});
 $('#centroNombre').selectize({});
 $('#medioReg').selectize({});

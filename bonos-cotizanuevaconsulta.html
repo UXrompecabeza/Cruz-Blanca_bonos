@@ -29,7 +29,7 @@
     </div>
     <div class="desktop-view hide-sm">
       <div class="main-container">
-        <header>
+        <header class="hide-sm">
           <div class="header-desk">
             <div class="header-box-brand"><img class="brand-logo" src="assets/imgs/logo-cb.png" alt=""/></div>
             <div class="header-box-sesion">
@@ -116,7 +116,7 @@
           </div>
         </div>
         <div class="hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -138,10 +138,19 @@
           </section>
           <div class="cnc_form">
             <div class="wrap-content">
-              <div class="inputtxt-box2"> 
-                <h4 class="form-title hide-lg hide-md">¿Dónde te quieres atender?</h4>
+              <div class="select-box">
+                <h4 class="form-title">Centro médico</h4>
                 <p class="asterisc top">*</p>
-                <input id="centroId" type="text" placeholder="Ingresa centro médico"/>
+                <div class="select-box_areaLarge">
+                  <select id="centroId">
+                    <option active="active" value="">Selecciona centro médico</option>
+                    <option value="Integramédica Las Condes">Integramédica Las Condes</option>
+                    <option value="Integramédica Los Leones">Integramédica Los Leones</option>
+                    <option value="Integramédica Providencia">Integramédica Providencia</option>
+                    <option value="Integramédica Barcelona">Integramédica Barcelona</option>
+                    <option value="Integramédica La Florida">Integramédica La Florida</option>
+                  </select>
+                </div>
               </div>
               <div class="row">
                 <div class="col-xs-12 col-sm-6 no-padding_mobil no-padd-left">
@@ -180,10 +189,19 @@
                   </div>
                 </div>
               </div>
-              <div class="inputtxt-box2">
+              <div class="select-box">
                 <h4 class="form-title">Especialidad del médico</h4>
                 <p class="asterisc top">*</p>
-                <input id="centroCiudad" type="text" placeholder="Ingresa especialidad"/>
+                <div class="select-box_areaLarge">
+                  <select id="centroEsp">
+                    <option active="active" value="">Selecciona especialidad</option>
+                    <option value="Medicina general">Medicina general</option>
+                    <option value="Obstetricia">Obstetricia</option>
+                    <option value="Ginecología">Ginecología</option>
+                    <option value="Oftalmología">Oftalmología</option>
+                    <option value="Traumatología">Traumatología</option>
+                  </select>
+                </div>
               </div>
               <div class="btn-area_single">
                 <button class="item-btn-area_single btn-next" id="btn-bono-selCentro" disabled="disabled">Buscar</button>
@@ -198,7 +216,7 @@
           </div>
         </div>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -402,7 +420,7 @@
           </div>
         </div>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -574,7 +592,7 @@
           </div>
         </div>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -641,7 +659,7 @@
           <p class="txt">Recuerda que puedes comprar tu bono directamente en tu lugar de atención. Este Centro médico/Médico tienen bono electrónico activo (IMED)</p>
         </div><br/>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -706,7 +724,7 @@
           </div>
         </div>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -883,7 +901,7 @@
               <p>Realizar otra búsqueda</p></a></div>
         </div>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -1139,7 +1157,7 @@
           </div>
         </div>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -1204,7 +1222,7 @@
           <p class="txt">Recuerda que puedes comprar tu bono directamente en tu lugar de atención. Este Centro médico/Médico tienen bono electrónico activo (IMED)</p>
         </div><br/>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -1226,10 +1244,19 @@
           </section>
           <div class="cnc_form">
             <div class="wrap-content">
-              <div class="inputtxt-box2"> 
+              <div class="select-box">
                 <h4 class="form-title">Especialidad del médico</h4>
                 <p class="asterisc top">*</p>
-                <input id="espeId" type="text" placeholder="Ingresa especialidad"/>
+                <div class="select-box_areaLarge">
+                  <select id="espeId">
+                    <option active="active" value="">Selecciona especialidad</option>
+                    <option value="Medicina general">Medicina general</option>
+                    <option value="Obstetricia">Obstetricia</option>
+                    <option value="Ginecología">Ginecología</option>
+                    <option value="Oftalmología">Oftalmología</option>
+                    <option value="Traumatología">Traumatología</option>
+                  </select>
+                </div>
               </div>
               <div class="row">
                 <div class="col-xs-12 col-sm-6 no-padding_mobil no-padd-left">
@@ -1281,7 +1308,7 @@
           </div>
         </div>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -1457,7 +1484,7 @@
           </div>
         </div>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -1629,7 +1656,7 @@
           </div>
         </div>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
@@ -1694,7 +1721,7 @@
           <p class="txt">Recuerda que puedes comprar tu bono directamente en tu lugar de atención. Este Centro médico/Médico tienen bono electrónico activo (IMED)</p>
         </div><br/>
         <div class="main-container hide-sm">
-          <div class="navbar-bottom"><a href="#">
+          <div class="navbar-bottom hide-sm"><a href="#">
               <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
                 <p>Volver</p>
               </div></a></div>
