@@ -378,7 +378,16 @@ function flujoReservaHora() {
 }
 
 $('#centroRegion').selectize({
-    maxItems: 3
+    maxItems: 3,
+    plugins: ['remove_button'],
+    delimiter: ',',
+    persist: false,
+    create: function(input) {
+        return {
+            value: input,
+            text: input
+        }
+    }
 });
 $('#espeId').selectize({});
 $('#centroId').selectize({});
@@ -387,7 +396,16 @@ $('#espeRegion').selectize({});
 $('#centroNombre').selectize({});
 $('#medioReg').selectize({});
 $('#espeCiudad').selectize({
-    maxItems: 3
+    maxItems: 3,
+    plugins: ['remove_button'],
+    delimiter: ',',
+    persist: false,
+    create: function(input) {
+        return {
+            value: input,
+            text: input
+        }
+    }
 });
 
 

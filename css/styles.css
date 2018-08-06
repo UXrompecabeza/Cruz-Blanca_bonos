@@ -5149,6 +5149,22 @@ header .header-mo .box-notification img {
   width: 100%;
 }
 
+.cotiza-nueva-consulta-centro .cnc_area1 .select-box .select-box_area .selectize-input, .cotiza-nueva-consulta-centro .bh-step1 .select-box .select-box_area .selectize-input,
+.cotiza-nueva-consulta-medico .cnc_area1 .select-box .select-box_area .selectize-input,
+.cotiza-nueva-consulta-medico .bh-step1 .select-box .select-box_area .selectize-input,
+.cotiza-nueva-consulta-especialidad .cnc_area1 .select-box .select-box_area .selectize-input,
+.cotiza-nueva-consulta-especialidad .bh-step1 .select-box .select-box_area .selectize-input,
+.compraBono-step2 .cnc_area1 .select-box .select-box_area .selectize-input,
+.compraBono-step2 .bh-step1 .select-box .select-box_area .selectize-input,
+.compraBono-step1 .cnc_area1 .select-box .select-box_area .selectize-input,
+.compraBono-step1 .bh-step1 .select-box .select-box_area .selectize-input,
+.bonohistorico-container .cnc_area1 .select-box .select-box_area .selectize-input,
+.bonohistorico-container .bh-step1 .select-box .select-box_area .selectize-input,
+.bonoreservahora-container .cnc_area1 .select-box .select-box_area .selectize-input,
+.bonoreservahora-container .bh-step1 .select-box .select-box_area .selectize-input {
+  background-position-x: 93.5% !important;
+}
+
 .cotiza-nueva-consulta-centro .cnc_area1 .select-box .select-box_areaLarge, .cotiza-nueva-consulta-centro .bh-step1 .select-box .select-box_areaLarge,
 .cotiza-nueva-consulta-medico .cnc_area1 .select-box .select-box_areaLarge,
 .cotiza-nueva-consulta-medico .bh-step1 .select-box .select-box_areaLarge,
