@@ -5229,61 +5229,143 @@ header .header-mo .box-notification img {
   text-align: left;
 }
 
-.cotiza-nueva-consulta-centro .cnc_area3 .blue-box_result,
+.cotiza-nueva-consulta-centro .cnc_area3 .blue-box_result, .cotiza-nueva-consulta-centro .cnc_area3b .blue-box_result,
 .cotiza-nueva-consulta-medico .cnc_area3 .blue-box_result,
+.cotiza-nueva-consulta-medico .cnc_area3b .blue-box_result,
 .cotiza-nueva-consulta-especialidad .cnc_area3 .blue-box_result,
+.cotiza-nueva-consulta-especialidad .cnc_area3b .blue-box_result,
 .compraBono-step2 .cnc_area3 .blue-box_result,
+.compraBono-step2 .cnc_area3b .blue-box_result,
 .compraBono-step1 .cnc_area3 .blue-box_result,
+.compraBono-step1 .cnc_area3b .blue-box_result,
 .bonohistorico-container .cnc_area3 .blue-box_result,
-.bonoreservahora-container .cnc_area3 .blue-box_result {
+.bonohistorico-container .cnc_area3b .blue-box_result,
+.bonoreservahora-container .cnc_area3 .blue-box_result,
+.bonoreservahora-container .cnc_area3b .blue-box_result {
   margin: 2em auto !important;
   width: 90% !important;
 }
 
-.cotiza-nueva-consulta-centro .cnc_area3 .cnc_form,
+.cotiza-nueva-consulta-centro .cnc_area3 .cnc_form, .cotiza-nueva-consulta-centro .cnc_area3b .cnc_form,
 .cotiza-nueva-consulta-medico .cnc_area3 .cnc_form,
+.cotiza-nueva-consulta-medico .cnc_area3b .cnc_form,
 .cotiza-nueva-consulta-especialidad .cnc_area3 .cnc_form,
+.cotiza-nueva-consulta-especialidad .cnc_area3b .cnc_form,
 .compraBono-step2 .cnc_area3 .cnc_form,
+.compraBono-step2 .cnc_area3b .cnc_form,
 .compraBono-step1 .cnc_area3 .cnc_form,
+.compraBono-step1 .cnc_area3b .cnc_form,
 .bonohistorico-container .cnc_area3 .cnc_form,
-.bonoreservahora-container .cnc_area3 .cnc_form {
+.bonohistorico-container .cnc_area3b .cnc_form,
+.bonoreservahora-container .cnc_area3 .cnc_form,
+.bonoreservahora-container .cnc_area3b .cnc_form {
   margin: 2em 0;
 }
 
-.cotiza-nueva-consulta-centro .cnc_area3 .cnc_form .doctores-area .rdbtn-area,
+.cotiza-nueva-consulta-centro .cnc_area3 .cnc_form .doctores-area .rdbtn-area, .cotiza-nueva-consulta-centro .cnc_area3 .cnc_form .doctores-area_b .rdbtn-area, .cotiza-nueva-consulta-centro .cnc_area3b .cnc_form .doctores-area .rdbtn-area, .cotiza-nueva-consulta-centro .cnc_area3b .cnc_form .doctores-area_b .rdbtn-area,
 .cotiza-nueva-consulta-medico .cnc_area3 .cnc_form .doctores-area .rdbtn-area,
+.cotiza-nueva-consulta-medico .cnc_area3 .cnc_form .doctores-area_b .rdbtn-area,
+.cotiza-nueva-consulta-medico .cnc_area3b .cnc_form .doctores-area .rdbtn-area,
+.cotiza-nueva-consulta-medico .cnc_area3b .cnc_form .doctores-area_b .rdbtn-area,
 .cotiza-nueva-consulta-especialidad .cnc_area3 .cnc_form .doctores-area .rdbtn-area,
+.cotiza-nueva-consulta-especialidad .cnc_area3 .cnc_form .doctores-area_b .rdbtn-area,
+.cotiza-nueva-consulta-especialidad .cnc_area3b .cnc_form .doctores-area .rdbtn-area,
+.cotiza-nueva-consulta-especialidad .cnc_area3b .cnc_form .doctores-area_b .rdbtn-area,
 .compraBono-step2 .cnc_area3 .cnc_form .doctores-area .rdbtn-area,
+.compraBono-step2 .cnc_area3 .cnc_form .doctores-area_b .rdbtn-area,
+.compraBono-step2 .cnc_area3b .cnc_form .doctores-area .rdbtn-area,
+.compraBono-step2 .cnc_area3b .cnc_form .doctores-area_b .rdbtn-area,
 .compraBono-step1 .cnc_area3 .cnc_form .doctores-area .rdbtn-area,
+.compraBono-step1 .cnc_area3 .cnc_form .doctores-area_b .rdbtn-area,
+.compraBono-step1 .cnc_area3b .cnc_form .doctores-area .rdbtn-area,
+.compraBono-step1 .cnc_area3b .cnc_form .doctores-area_b .rdbtn-area,
 .bonohistorico-container .cnc_area3 .cnc_form .doctores-area .rdbtn-area,
-.bonoreservahora-container .cnc_area3 .cnc_form .doctores-area .rdbtn-area {
+.bonohistorico-container .cnc_area3 .cnc_form .doctores-area_b .rdbtn-area,
+.bonohistorico-container .cnc_area3b .cnc_form .doctores-area .rdbtn-area,
+.bonohistorico-container .cnc_area3b .cnc_form .doctores-area_b .rdbtn-area,
+.bonoreservahora-container .cnc_area3 .cnc_form .doctores-area .rdbtn-area,
+.bonoreservahora-container .cnc_area3 .cnc_form .doctores-area_b .rdbtn-area,
+.bonoreservahora-container .cnc_area3b .cnc_form .doctores-area .rdbtn-area,
+.bonoreservahora-container .cnc_area3b .cnc_form .doctores-area_b .rdbtn-area {
   margin-bottom: 1em;
 }
 
-.cotiza-nueva-consulta-centro .cnc_area3 .link-show img, .cotiza-nueva-consulta-centro .cnc_area3 .link-show p,
+.cotiza-nueva-consulta-centro .cnc_area3 .link-show img, .cotiza-nueva-consulta-centro .cnc_area3 .link-show p, .cotiza-nueva-consulta-centro .cnc_area3b .link-show img, .cotiza-nueva-consulta-centro .cnc_area3b .link-show p,
 .cotiza-nueva-consulta-medico .cnc_area3 .link-show img,
 .cotiza-nueva-consulta-medico .cnc_area3 .link-show p,
+.cotiza-nueva-consulta-medico .cnc_area3b .link-show img,
+.cotiza-nueva-consulta-medico .cnc_area3b .link-show p,
 .cotiza-nueva-consulta-especialidad .cnc_area3 .link-show img,
 .cotiza-nueva-consulta-especialidad .cnc_area3 .link-show p,
+.cotiza-nueva-consulta-especialidad .cnc_area3b .link-show img,
+.cotiza-nueva-consulta-especialidad .cnc_area3b .link-show p,
 .compraBono-step2 .cnc_area3 .link-show img,
 .compraBono-step2 .cnc_area3 .link-show p,
+.compraBono-step2 .cnc_area3b .link-show img,
+.compraBono-step2 .cnc_area3b .link-show p,
 .compraBono-step1 .cnc_area3 .link-show img,
 .compraBono-step1 .cnc_area3 .link-show p,
+.compraBono-step1 .cnc_area3b .link-show img,
+.compraBono-step1 .cnc_area3b .link-show p,
 .bonohistorico-container .cnc_area3 .link-show img,
 .bonohistorico-container .cnc_area3 .link-show p,
+.bonohistorico-container .cnc_area3b .link-show img,
+.bonohistorico-container .cnc_area3b .link-show p,
 .bonoreservahora-container .cnc_area3 .link-show img,
-.bonoreservahora-container .cnc_area3 .link-show p {
+.bonoreservahora-container .cnc_area3 .link-show p,
+.bonoreservahora-container .cnc_area3b .link-show img,
+.bonoreservahora-container .cnc_area3b .link-show p {
   display: inline-block;
 }
 
-.cotiza-nueva-consulta-centro .cnc_area3 .link-show p,
+.cotiza-nueva-consulta-centro .cnc_area3 .link-show p, .cotiza-nueva-consulta-centro .cnc_area3b .link-show p,
 .cotiza-nueva-consulta-medico .cnc_area3 .link-show p,
+.cotiza-nueva-consulta-medico .cnc_area3b .link-show p,
 .cotiza-nueva-consulta-especialidad .cnc_area3 .link-show p,
+.cotiza-nueva-consulta-especialidad .cnc_area3b .link-show p,
 .compraBono-step2 .cnc_area3 .link-show p,
+.compraBono-step2 .cnc_area3b .link-show p,
 .compraBono-step1 .cnc_area3 .link-show p,
+.compraBono-step1 .cnc_area3b .link-show p,
 .bonohistorico-container .cnc_area3 .link-show p,
-.bonoreservahora-container .cnc_area3 .link-show p {
+.bonohistorico-container .cnc_area3b .link-show p,
+.bonoreservahora-container .cnc_area3 .link-show p,
+.bonoreservahora-container .cnc_area3b .link-show p {
   margin-right: .5em;
+}
+
+.cotiza-nueva-consulta-centro .cnc_area3 h5, .cotiza-nueva-consulta-centro .cnc_area3b h5,
+.cotiza-nueva-consulta-medico .cnc_area3 h5,
+.cotiza-nueva-consulta-medico .cnc_area3b h5,
+.cotiza-nueva-consulta-especialidad .cnc_area3 h5,
+.cotiza-nueva-consulta-especialidad .cnc_area3b h5,
+.compraBono-step2 .cnc_area3 h5,
+.compraBono-step2 .cnc_area3b h5,
+.compraBono-step1 .cnc_area3 h5,
+.compraBono-step1 .cnc_area3b h5,
+.bonohistorico-container .cnc_area3 h5,
+.bonohistorico-container .cnc_area3b h5,
+.bonoreservahora-container .cnc_area3 h5,
+.bonoreservahora-container .cnc_area3b h5 {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: .5em;
+}
+
+.cotiza-nueva-consulta-centro .cnc_area3 h4, .cotiza-nueva-consulta-centro .cnc_area3b h4,
+.cotiza-nueva-consulta-medico .cnc_area3 h4,
+.cotiza-nueva-consulta-medico .cnc_area3b h4,
+.cotiza-nueva-consulta-especialidad .cnc_area3 h4,
+.cotiza-nueva-consulta-especialidad .cnc_area3b h4,
+.compraBono-step2 .cnc_area3 h4,
+.compraBono-step2 .cnc_area3b h4,
+.compraBono-step1 .cnc_area3 h4,
+.compraBono-step1 .cnc_area3b h4,
+.bonohistorico-container .cnc_area3 h4,
+.bonohistorico-container .cnc_area3b h4,
+.bonoreservahora-container .cnc_area3 h4,
+.bonoreservahora-container .cnc_area3b h4 {
+  font-weight: 500;
 }
 
 .cotiza-nueva-consulta-centro .selectbox-flujo-medico,

@@ -65,7 +65,9 @@ function flujoMedico() {
     var h = $(".doctores-area").find("input");
     var i = $(".linkFlujo");
     var j = $(".cotiza-nueva-consulta-medico").find(".cnc_area4");
-
+    var k = $(".cotiza-nueva-consulta-medico").find(".cnc_area3b");
+    var l = $(".doctores-area_b").find("input");
+    
     // Step 0
     $(".porMedico").click(function() {
         $(".cotizanuevaconsulta").addClass("hide");
@@ -110,6 +112,15 @@ function flujoMedico() {
             $("#btnDocRbx").removeAttr("disabled");
             $("#btnDocRbx").click(function() {
                 f.addClass("hide");
+                k.removeClass("hide");
+            });
+        }
+    });
+    $(l).on('keyup keydown keypress change paste', function () {
+        if(l.is(':checked')) {
+            $("#btnDocRbxb").removeAttr("disabled");
+            $("#btnDocRbxb").click(function() {
+                k.addClass("hide");
                 g.removeClass("hide");
             });
         }

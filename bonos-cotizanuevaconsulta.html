@@ -41,7 +41,6 @@
                   <p class="data-txt">Bienvenida</p>
                   <p class="user-name">andrea lagos</p>
                 </div>
-                <div class="sesion-user-data-menu"><img src="assets/icons/icon-question.svg" alt=""/></div>
               </div>
             </div>
           </div>
@@ -125,10 +124,9 @@
     </div>
     <div class="cotiza-nueva-consulta-centro">
       <div class="cnc_area1 hide">
-        <div class="narrow-container">
+        <div class="main-container">
           <section>
             <h1 class="section-title section-title_desk">Cotizar nueva consulta por centro médico</h1>
-            <p class="info-obligatory hide-sm">* Información obligatoria</p>
             <div class="hide-lg hide-md">
               <div class="link-area"> <a class="link-style" href="bonos-cotizanuevaconsulta.html">Realizar otra búsqueda</a></div><br/>
               <p>Datos consulta</p>
@@ -136,6 +134,11 @@
             </div>
             <h4 class="hide-sm">¿Dónde te quieres atender?</h4>
           </section>
+        </div>
+        <div class="narrow-container">
+          <p class="info-obligatory hide-sm">* Información obligatoria</p>
+        </div>
+        <div class="narrow-container">
           <div class="cnc_form">
             <div class="wrap-content">
               <div class="select-box">
@@ -169,7 +172,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 no-padding_mobil no-padd-left">
+                <div class="col-xs-12 col-sm-6 no-padding_mobil no-padd-left movil_up">
                   <div class="select-box">
                     <h4 class="form-title">Ciudad o comuna </h4>
                     <p class="asterisc top">*</p>
@@ -189,7 +192,7 @@
                   </div>
                 </div>
               </div>
-              <div class="select-box">
+              <div class="select-box movil_up">
                 <h4 class="form-title">Especialidad del médico</h4>
                 <p class="asterisc top">*</p>
                 <div class="select-box_areaLarge">
@@ -668,10 +671,9 @@
     </div>
     <div class="cotiza-nueva-consulta-medico">
       <div class="cnc_area1 hide">
-        <div class="narrow-container">
+        <div class="main-container">
           <section>
             <h1 class="section-title section-title_desk">Cotizar nueva consulta por médico</h1>
-            <p class="info-obligatory hide-sm">* Información obligatoria</p>
             <h4 class="hide-sm">Información del médico</h4>
             <div class="hide-lg hide-md">
               <div class="link-area"> <a class="link-style" href="bonos-cotizanuevaconsulta.html">Realizar otra búsqueda</a></div><br/>
@@ -679,6 +681,11 @@
               <p class="info-obligatory-mo hide-lg hide-md">* Son obligatorios</p>
             </div>
           </section>
+        </div>
+        <div class="narrow-container">
+          <p class="info-obligatory hide-sm">* Información obligatoria</p>
+        </div>
+        <div class="narrow-container">
           <div class="wrap-content">
             <div class="cnc_form">   
               <div class="row">
@@ -898,6 +905,64 @@
             <button class="item-btn-area_single btn-next" id="btnDocRbx" disabled="disabled">Siguiente</button>
           </div><br/>
           <div class="link-text-area center hide-sm"><a class="link-style" id="linkRetroceder" href="bonos-cotizanuevaconsulta.html">
+              <p>Realizar otra búsqueda</p></a></div>
+        </div>
+        <div class="main-container hide-sm">
+          <div class="navbar-bottom hide-sm"><a href="#">
+              <div class="navbar-bottom-return"><img src="assets/icons/icon-volverizq.svg" alt=""/>
+                <p>Volver</p>
+              </div></a></div>
+        </div>
+      </div>
+      <div class="cnc_area3b hide">
+        <div class="narrow-container">
+          <section>
+            <h1 class="section-title section-title_desk">Cotizar nueva consulta por médico</h1>
+            <h4 class="hide-sm">Elige donde te quieres atender con:</h4>
+            <h5 class="hide-sm">Dr. Javiera Salvador, Traumatología</h5>
+            <div class="hide-lg hide-md">
+              <div class="link-area"> <a class="link-style" href="bonos-cotizanuevaconsulta.html">Realizar otra búsqueda</a></div><br/>
+              <p>Elige donde te quieres atender con: </p>
+              <p>Dr. Javiera Salvador, Traumatología</p>
+            </div>
+          </section>
+          <div class="cnc_form"> 
+            <div class="doctores-area_b">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padding_mobil">
+                  <div class="rdbtn-area">
+                    <input type="radio" name="doctores-2" id="rbb1b"/>
+                    <label class="check" for="rbb1b"> 
+                      <p class="label-color-blue">IntegraMédica Barcelona</p>
+                      <p class="label-color-grey">Barcelona 2116, Providencia</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padding_mobil">
+                  <div class="rdbtn-area">
+                    <input type="radio" name="doctores-2" id="rbb4b"/>
+                    <label class="check" for="rbb4b"> 
+                      <p class="label-color-blue">IntegraMédica Las Condes</p>
+                      <p class="label-color-grey">Av. Kennedy 9001, 3 Piso, Mall Alto Las Condes</p>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 no-padding_mobil">
+                  <div class="rdbtn-area">
+                    <input type="radio" name="doctores-2" id="rbb7b"/>
+                    <label class="check" for="rbb7b"> 
+                      <p class="label-color-blue">IntegraMédica Manquehue</p>
+                      <p class="label-color-grey">Av. Manquehue Sur 329, Las Condes</p>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><br/>
+          <div class="btn-area_single">
+            <button class="item-btn-area_single btn-next" id="btnDocRbxb" disabled="disabled">Siguiente</button>
+          </div><br/>
+          <div class="link-text-area center hide-sm"><a class="link-style" id="linkRetroceder_b" href="bonos-cotizanuevaconsulta.html">
               <p>Realizar otra búsqueda</p></a></div>
         </div>
         <div class="main-container hide-sm">
@@ -1231,10 +1296,9 @@
     </div>
     <div class="cotiza-nueva-consulta-especialidad">
       <div class="cnc_area1 hide">
-        <div class="narrow-container">
+        <div class="main-container">
           <section>
             <h1 class="section-title section-title_desk">Cotizar nueva consulta por especialidad</h1>
-            <p class="info-obligatory hide-sm">* Información obligatoria</p>
             <div class="hide-lg hide-md">
               <div class="link-area"> <a class="link-style" href="bonos-cotizanuevaconsulta.html">Realizar otra búsqueda</a></div><br/>
               <p>Datos consulta</p>
@@ -1242,6 +1306,11 @@
             </div>
             <h4 class="hide-sm">Datos para la consulta</h4>
           </section>
+        </div>
+        <div class="narrow-container">
+          <p class="info-obligatory hide-sm">* Información obligatoria</p>
+        </div>
+        <div class="narrow-container">
           <div class="cnc_form">
             <div class="wrap-content">
               <div class="select-box">
@@ -1275,7 +1344,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 no-padding_mobil no-padd-left">
+                <div class="col-xs-12 col-sm-6 no-padding_mobil no-padd-left movil_up">
                   <div class="select-box">
                     <h4 class="form-title">Ciudad o comuna </h4>
                     <p class="asterisc top">*</p>
