@@ -46,12 +46,12 @@ table {
   }
   .narrow-container {
     width: 100% !important;
-    padding: 0 !important;
+    padding: 0 14px !important;
   }
   .wrap-content {
     width: 100%;
     margin: 0 auto;
-    padding: 0 14px !important;
+    padding: 0 !important;
   }
   .hide-sm {
     visibility: hidden;
@@ -85,6 +85,9 @@ table {
   }
   .no-padd-left {
     margin-bottom: 1em;
+  }
+  .movil_up {
+    margin-top: -.9em;
   }
   .selectbox-flujo-medico {
     margin-top: 0 !important;
@@ -236,10 +239,6 @@ table {
   }
   .terms-and-conditions label {
     font-size: 12px;
-  }
-  .narrow-container {
-    width: 100% !important;
-    padding: 0;
   }
   .reembolso-form .flujo-lg, .reembolso-form .flujo-md {
     padding-top: .5em !important;
@@ -623,6 +622,9 @@ table {
   .cnc_form .select-box_area select {
     font-size: 16px !important;
   }
+  .cnc_form .select-box_areaLarge .selectize-input {
+    background-position-x: 93.5% !important;
+  }
   .cnc_form .medico-box_region {
     width: 96%;
   }
@@ -702,6 +704,9 @@ table {
   .licencia-detalles .secondRow {
     border-top: 1px solid #c0def2;
     padding-top: 1em;
+  }
+  .pago {
+    padding: 0 0 1em 0 !important;
   }
   .pago .monto-total {
     border-top: 1px solid #c0def2;
@@ -4228,6 +4233,10 @@ header .header-mo .box-notification img {
 
 .list-item .header-box .right-filter a {
   cursor: pointer;
+}
+
+.list-item .header-box .right-filter a span {
+  padding-right: .5em;
 }
 
 .list-item .header-box .item-date {
